@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="eCommerce Amazon">
+
+	<test name="eCommerce Test">
+		
+	<classes>
+	
+	
+	 <class name="com.amazon.testcases.LoginPageTest" />  
+	 <class name="com.amazon.testcases.YourAccountPageTest" /> 
+	 <class name="com.amazon.testcases.YoursOrdersPageTest" /> 
+	 <class name="com.amazon.testcases.YourAddressPageTest" />
+	  <class name="com.amazon.testcases.LoginSecurityPageTest" />
+	  <class name="com.amazon.testcases.YourPaymentsPageTest" />
+	   <class name="com.amazon.testcases.GuestAccountPageTest" />
+	   <class name="com.amazon.testcases.SearchPageTest" />
+	     <class name="com.amazon.testcases.PaginationPageTest" />
+	       <class name="com.amazon.testcases.ShoppingCartPageTest" />
+	        <class name="com.amazon.testcases.PaymentPageTest" />
+
+		
+		
+    </classes>
+
+	</test>
+
+</suite>
